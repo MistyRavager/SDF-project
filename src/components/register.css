@@ -1,0 +1,41 @@
+*{
+    margin: 0vw;
+    padding: 0vw;
+}
+.cont1{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 1vw;
+}
+.btn{
+    
+   border-radius: 0.3vw;
+    box-shadow: 0vw 0vw 0.2vw;
+    margin: 0.5vw;
+    margin-left: 0vw;
+    padding: 0.3vw;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+#text-input{
+    font-size: 1.5vw;
+    padding: 2vw;
+    width: 41vw;
+    height: 20vw;
+    border: none;
+    box-shadow: 0vw 0vw 1vw;
+}
+.active{
+    background-color: red;
+}
+.submit{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#post{
+    margin-left: 15vw;
+}

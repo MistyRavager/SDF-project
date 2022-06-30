@@ -1,0 +1,16 @@
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+    height: 5vw;
+    background-color: black;
+    color :white;
+}
+.btn{
+    border-radius: 0.8vw;
+}
