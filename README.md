@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Complaint Management System
+---
+## FRONT END:
+### Main Webpage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Login / Register page
+    1. Login
+        * Register Complaints
+            * Description of complaint
+            * Category of complaint
+            * File insertion
+            * When the complaint is registered, Unique  Ticket code will be assigned, time stamps of each complaint will be noted and complaint will be carry forwarded to that particular complaint-solving dept)
+        * View status of complaint
+            * If complaint is resolved, close ticket
+            * Post follow-up queries
+            * Put up reminders after 3 days if the complaint has not been addressed 
+        * View previous complaints
+            * Re-open ticket 
+    2. Register
+        * User Details (text box as in the image)
 
-## Available Scripts
+2. Archives (with category wise search / keyword wise search)
+3. Feedback/Suggestions/Reviews
 
-In the project directory, you can run:
+4. At the end of the website page, they can see the contact numbers of complaint-solving departments.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+	
+## BACK END: 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Storing complaints in a Database along with user information
+2. Processing:
+    * Ordered list of complaints (Based on timestamp)
+    * Reply to the complaint, cannot close ticket.
+    * Carry forwarding the problem to another department if cannot solve/ wrong category, and this must be notified to the complaint registrar.
+4. Putting up reminders if no user response.
+5. Closing ticket if no user response after 5 reminders.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
